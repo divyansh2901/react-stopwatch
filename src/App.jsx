@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  const [currentCount, setCurrentCount] = useState(1);
+  const [currentCount, setCurrentCount] = useState(0);
   const timer = useRef(null);
 
   function startClock() {
